@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>Ratatouille</title>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+<a class="sr-only sr-only-focusable" href="#sobre">Pular para a história do restaurante Ratatouille</a>
+<a class="sr-only sr-only-focusable" href="#cardapio">Pular para o cardápio</a>
+<a class="sr-only sr-only-focusable" href="#reservas">Pular para as informações do restaurante</a>
+
+<nav class="navbar justify-content-center sticky-top navbar-expand-lg navbar-light bg-light" id="myScrollspy">
+  <a class="logo justify-content-center nav-link active" href="#home">
+  <img src="logo.png" class="d-inline-block align-top" alt="logo do restaurante"> Ratatouille</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="menu navbar-collapse collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item button">
+        <a class="nav-link" href="#sobre">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link button" href="#cardapio">Cardápio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#reservas">Reservas</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div id="home">
+	<p>Bon appétit!</p>
+	<div class="w3-center" id="prato-comida">
+		<img id="garfo" src="comida_garfo.png" alt="Garfo com um pedaço do Ratatouille">
+		<img id="prato" src="comida_prato.png" alt="Prato com Ratatouille">
+	</div>	
+</div>
+<section id="sobre">
+	<div class="container" id="sobre-txt">
+		<h1 class="text-nowrap" id="txt">Sobre o nosso restaurante</h1>
+		<div class="row">
+			<div class="col-md align-middle" id="historia">
+				<h2 class="w3-center">Nossa história</h2>
+				<p class="text-justify">Ao se conhecerem no antigo Restaurante Gusteau’s, o casal, Linguini e Colete, conquistaram o paladar do, então crítico, Anton Ego, com sua maravilhosa comida. </p>
+				<p class="text-justify">Decidiram-se, então, abrir um restaurante com a mesma inspiração e sonho de trabalhar com gastronomia. Para que assim, seus clientes lembrassem de suas casas e seus parentes, criando um momento agradável e confortável.</p>
+			</div>
+			<div class="col-md align-middle" id="equipe">
+				<div class="container">
+					<h2 class="w3-center">Nossa equipe</h2>
+					<div class="row">
+						<div class="ego col-md-12">
+							<img class="foto border rounded-circle" src="anton_ego.jpg" alt="Foto de Anton Ego">
+								<p class="text-justify text-nowrap"><strong>Anton Ego</strong></p>
+								<p class="text-justify">Ex-crítico gourmet, atual dono e investidor do Restaurante Ratatouille.</p>
+						</div>
+						<div class="linguini col-md-12">
+							<img class="foto border rounded-circle" src="linguini.jpg" alt="Foto de Alfredo Linguini">
+							<p class="text-justify text-nowrap"><strong>Alfredo Linguini</strong></p>
+							<p class="text-justify">Dono e garçom do Restaurante Ratatouille, filho do renomado ex-chef Auguste Gusteau.</p>
+						</div>
+						<div class="colete col-md-12">
+							<img class="foto border rounded-circle" src="colete.jpg" alt="Foto de Colete Tatou">
+							<p class="text-justify text-nowrap"><strong>Colete Tatou</strong></p>
+							<p class="text-justify">Dona e Chef de cozinha do restaurante Ratatouille, trabalhou no antigo Restaurante Gusteau’s.</p>
+						</div>
+					</div>	
+				</div>		
+			</div>
+		</div>	
+	</div>
+</section>
+<section id="cardapio">
+	<div class="container" id="pratos">
+		<h1 class="w3-center">Cardápio</h1>
+		<h2>Entradas</h2>
+		<div class="d-flex flex-wrap">
+			<div class="polaroid">
+		  		<img src="croissant.jpg" alt="Croissant">
+		  		<div class="container">
+		  			<p class="text-justify">Croissant acompanhado de patês de azeitona, cebolinha, frango e presunto e manteiga de ervas.</p>
+		 		 </div>
+			</div>
+
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="quiche.jpg" alt="Quiche">
+				  <div class="container">
+				  	<p class="text-justify">Quiche de Lorraine, legumes, cogumelos ou queijo.</p>
+				  </div>
+			</div>
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="batata.jpg" alt="Prato com Batata gratinada">
+				  <div class="container">
+				  	<p class="text-justify">Batata gratinada com queijo.</p>
+				  </div>
+			</div>
+		</div>
+		<h2 style="margin-bottom: 10px">Pratos Principais</h2>
+		<div class="d-flex flex-wrap">
+			<div class="polaroid">
+		  		<img src="sopa-peixe.jpeg" alt="Prato com sopa de frutos do mar">
+		  		<div class="container">
+		  			<p class="text-justify">Bouillabaisse, sopa de frutos do mar.</p>
+		 		 </div>
+			</div>
+
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="escargot.jpg" alt="Prato com escargot com manteiga de ervas">
+				  <div class="container">
+				  	<p class="text-justify">Escargots com manteiga de ervas.</p>
+				  </div>
+			</div>
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="mexilhao.jpg" alt="Prato com mexilhões temperados">
+				  <div class="container">
+				  	<p class="text-justify">Mouclade Charentaise, mexilhões cozinhados com alho, natas, ovos, ervas aromáticas e vinho.</p>
+				  </div>
+			</div>
+
+			<div class="polaroid">
+				  <img src="vitela.jpg" alt="Prato com rolê de vitela com cogumelo e acelga.">
+				  <div class="container">
+				  	<p class="text-justify">Rolê de vitela com cogumelo e acelga.</p>
+				  </div>
+			</div>
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="pato-laranja.jpeg" alt="Prato com salada e peito de pato com molho de laranja">
+				  <div class="container">
+				  	<p class="text-justify">Salada com peito de pato e molho de laranja.</p>
+				  </div>
+			</div>
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="frango-vinho.jpg" alt="Prato com frango ao molho de vinho tinto">
+				  <div class="container">
+				  	<p class="text-justify">Frango ao molho de vinho tinto.</p>
+				  </div>
+			</div>
+
+			<div class="polaroid">
+				  <img src="sopa-cebola.jpg" alt="Prato de sopa de cebola">
+				  <div class="container">
+				  	<p class="text-justify">Sopa de cebola. <strong> Vegetariano</strong></p>
+				  </div>
+			</div>
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="ratatouille.jpg" alt="Prato com ratatouille">
+				  <div class="container">
+				  	<p class="text-justify">Ratatouille, acompanhado de arroz, pão ou polenta.<strong> Vegetariano</strong></p>
+				  </div>
+			</div>
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="fondue.jpg" alt="Panela de fondue Savoyarde">
+				  <div class="container">
+				  	<p class="text-justify">Fondue Savoyarde, com cestas de pão.<strong> Vegetariano</strong></p>
+				  </div>
+			</div>
+		</div>
+		<h2>Sobremesas</h2>
+		<div class="d-flex flex-wrap">
+			<div class="polaroid">
+		  		<img src="petit.jpg" alt="Prato com Petit Gateau e sorvete de creme">
+		  		<div class="container">
+		  			<p class="text-justify">Petit Gateau com sorvete de creme.</p>
+		 		 </div>
+			</div>
+
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="profiterole.jpg" alt="Prato com profiteroles">
+				  <div class="container">
+				  	<p class="text-justify">Profiteroles com calda de chocolate.</p>
+				  </div>
+			</div>
+			<div class="polaroid" style="margin-left: 20px">
+				  <img src="creme.jpg" alt="Creme Brulee">
+				  <div class="container">
+				  	<p class="text-justify">Crème Brûlée</p>
+				  </div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="reservas">
+	<h1 class="w3-center">Reservas</h1>
+	<div class="container" style="margin-top: 30px">
+		<p><strong>Endereço:</strong> R. Marquês de Paranaguá, 111 - Consolação, São Paulo - SP, 01303-050</p>
+    	<p><strong> Aberto:</strong> Segunda-feira a Sexta-feira - 14h às 20h</p>
+    	<p>Sábado - 12h às 16h e 19h às 1h</p>
+		<p><strong>Telefone:</strong> (11)3124-7200</p>
+    </div>
+    <div class="sticky-bottom" id="mapa">
+		<p><iframe title="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.5370832247786!2d-46.65191938535628!3d-23.549146567025716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce584a1851911f%3A0x3370a89a5cc8887c!2sPUC-SP%20-%20Campus%20Consola%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1574653095506!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen=""></iframe></p>
+	</div>
+</section>
+
+<footer class="bg-light">
+	<p>© Restaurante Ratatouille 2019</p>
+</footer>
+</body>
+</html>
+
